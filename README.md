@@ -1,4 +1,4 @@
-# SJWP\_Marko\_Balasko
+Primjer 1:
 
-TŠSB
+-pospajamo i unesemo IP adrese i 
 
