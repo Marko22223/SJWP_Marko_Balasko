@@ -1,4 +1,3 @@
-Primjer 1:
+TssB
 
--pospajamo i unesemo IP adrese i 
 
