@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forme</title>
+</head>
+<body>
+    <h1>Forme u html</h1>
+    <form action="#" method="get">
+
+        <label for="ime">Unesi ime:</label>
+        <input type="text" id="ime" required placeholder="Unesi ime..."> <br> <br>
+
+        <label for="prezime">Prezime:</label>
+        <input type="text" id="prezime" size="10" maxlength="7" disabled value="prezime"><br> <br>
+        
+        <label for="lozinka">Unesi lozinku</label>
+        <input type="password" name="lozinka" id="lozinka" minlength="8"> <br><br>
+
+        <label for="email">Unesi email:</label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="date">Unesi datum: </label>
+        <input type="date" name="date" id="date"><br><br>
+        
+        <label for="color">izaberi boju: </label>
+        <input type="color" name="color" id="color"><br><br>
+
+        <label for="file">Prilozi datoteku: </label>
+        <input type="file" name="file" id="file"><br><br>
+
+        <label for="tel">Unesi broj telefona: </label>
+        <input type="tel" name="tel" id="tel"><br><br>
+
+        <p>Odaberi najbolji klub:</p>
+        <input type="radio" name="klub" id="Real" value="Real Madrid">
+        <label for="Real">Real Madrid</label><br><br>
+        <input type="radio" name="klub" id="Barca" value="Barcelona">
+        <label for="Barca">Barcelona</label><br><br>
+        <input type="radio" name="klub" id="Dinamo" value="Dinamo">
+        <label for="Dinamo">Dinamo</label><br><br>
+
+        <p>Odaberi najbolji klub</p>
+        <input type="checkbox" name="klub1" id="Milan" value="Milan">
+        <label for="Milan">Milan</label><br><br>
+        <input type="checkbox" name="klub2" id="Inter" value="Inter">
+        <label for="Inter">Inter</label><br><br>
+        <input type="checkbox" name="klub3" id="Rijeka" value="Rijeka">
+        <label for="Rijeka">Rijeka</label><br><br>
+
+        <input type="reset" value="Ponisti"><br><br>
+        <input type="submit" value="pošalji">     
+
+    </form>
+</body>
+</html>
