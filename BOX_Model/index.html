@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box_model</title>
+    
+    <style>
+        /* Cijeli file */
+        *{
+            box-sizing: border-box;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div{
+            width: 300px;
+            height: 300px;
+            border-radius: 30px;
+        }
+
+        .Box{
+            background-color: blueviolet;
+            border: 5px solid black;
+            margin-bottom: 50px;
+            margin-left: 50px;
+            padding: 50px;
+            border-top: 10px solid blue;
+        }
+
+        .Drugi{
+            background-color: burlywood;
+            border: 5px dashed red;
+            margin: 80px 40px 80px 40px;
+            /* margin 80px 40px (Isto sto i ovo gore) */
+        }
+    </style>
+</head>
+<body>
+    <h1>Box model</h1>
+    <div class="Box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Minima tempora autem quasi obcaecati non repellat tempore vel rerum delectus exercitationem eligendi eius suscipit possimus, 
+            rem dolorum hic similique ratione accusantium.</p>
+    </div>
+    <div class="Drugi">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusamus ullam! Minus architecto veniam maiores 
+            animi vel reiciendis atque, dolorem nam ea accusantium hic ratione, voluptas quod ipsa similique quos.</p>
+        <p>Assumenda numquam blanditiis cupiditate inventore ipsa consequatur ducimus necessitatibus odit velit, 
+            qui aliquid in praesentium repellendus vel error. Commodi fugit est incidunt mollitia dignissimos. Velit rerum fuga ipsa accusantium quasi!</p>
+    </div>
+</body>
+</html>
