@@ -1,4 +1,31 @@
 
 *{
     background-color: black;
+    box-sizing: border-box;
 }
+img{
+    height: 600px;
+}
+
+.slika{
+    border: 10px solid white;
+    width: 770px;
+    margin-left: 30%;
+    height: 625px;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.tekst{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 0%;
+    
+
+}
+
