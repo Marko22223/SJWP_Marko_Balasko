@@ -1,0 +1,161 @@
+body{
+    background-color: grey;
+}
+.crvena{
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 500px;
+    top: 10px;
+}
+
+.Plava{
+    background-color: blue;
+    width: 500px;
+    height: 120px;
+    position: absolute;
+    top: 100px;
+}
+
+.White{
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    left: 190px;
+    top: 105px;
+}
+
+.zastava{
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 500px;
+    
+}
+.bijela-vodoravno{
+    background-color: white;
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    top: 140px;
+}
+.Crvena-vodoravno{
+    background-color: red;
+    width: 500px;
+    height: 20px;
+    position: absolute;
+    top: 150px;
+    z-index: 3;
+}
+.bijela-okomito{
+    background-color: white;
+    width: 40px;
+    height: 300px;
+    position: absolute;
+    left: 150px;
+}
+.Crvena-okomito{
+    background-color: red;
+    width: 20px;
+    height: 300px;
+    position: absolute;
+    left: 160px;
+    z-index: 3;
+}
+
+.bahami{
+    background-color: teal;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 500px;
+}
+
+.zuto{
+    background-color: yellow;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+}
+
+.trokut{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 200px solid black;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+}
+
+.Bahrein{
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 500px;
+}
+.bijela{
+    background-color: white;
+    width: 150px;
+    height: 300px;
+    position: absolute;
+}
+.trokut1{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 150px;
+    border-left: 70px solid white;
+    border-top: 30px solid transparent;
+    border-bottom:30px solid transparent;
+    z-index: 3;
+}
+.trokut2{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 150px;
+    top: 60px;
+    border-left: 70px solid white;
+    border-top: 30px solid transparent;
+    border-bottom:30px solid transparent;
+    z-index: 3;
+}
+.trokut3{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 150px;
+    top: 120px;
+    border-left: 70px solid white;
+    border-top: 30px solid transparent;
+    border-bottom:30px solid transparent;
+    z-index: 3;
+}
+.trokut4{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 150px;
+    top: 180px;
+    border-left: 70px solid white;
+    border-top: 30px solid transparent;
+    border-bottom:30px solid transparent;
+    z-index: 3;
+}
+.trokut5{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 150px;
+    top: 240px;
+    border-left: 70px solid white;
+    border-top: 30px solid transparent;
+    border-bottom:30px solid transparent;
+    z-index: 3;
+}
