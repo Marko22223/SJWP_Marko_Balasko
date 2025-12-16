@@ -1,0 +1,102 @@
+/* zadana slika */
+.slika{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+
+/* slika u css */
+.body{
+    width: 400px;
+    height: 300px;
+    background-color: #5AED9C;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.zeleni{
+    width: 45px;
+    height: 45px;
+    background-color: #5AED9C;
+    position: absolute;
+    left: 30px;
+}
+
+.plavi1{
+    width: 75px;
+    height: 75px;
+    background-color: #4B4D88;
+    position: absolute;
+    left: 120px;
+    top: 150px;
+}
+.plavi2{
+    width: 75px;
+    height: 75px;
+    background-color: #4B4D88;
+    position: absolute;
+    left: 170px;
+    top: 100px;
+}
+.plavi3{
+    width: 75px;
+    height: 75px;
+    background-color: #4B4D88;
+    position: absolute;
+    left: 220px;
+    top: 50px;
+    z-index: 2;
+}
+
+/* osobna vizitka */
+.okvir{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+    top: 300px;
+    left: 300px;
+}
+
+
+.slika-profila{
+    width: 25%;
+    height: 37%;
+    border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+.ime{
+    position: absolute;
+    top: 40px;
+    left: 250px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.ostatak_info1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.ostatak_info2{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.mreze{
+    position: absolute;
+    top: 220px;
+    left: 290px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
