@@ -93,10 +93,17 @@
     font-family: Arial, sans-serif;
 }
 
-.mreze{
+.mreze-instagram{
     position: absolute;
     top: 220px;
-    left: 290px;
+    left: 350px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+.Facebook{
+    position: absolute;
+    top: 220px;
+    left: 220px;
     font-size: 16px;
     font-family: Arial, sans-serif;
 }
