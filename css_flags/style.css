@@ -159,3 +159,104 @@ body{
     border-bottom:30px solid transparent;
     z-index: 3;
 }
+
+.Zvijezda{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2%  35%,
+        39% 35%
+    );
+    position: absolute;
+    top: 90px;
+    left: 30px;
+
+}
+
+.spoj{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 500px;
+}
+.zelena{
+    height: 300px;
+    width: 166px;
+    background-color: #007A5E;
+    position: absolute
+}
+.crvenak{
+    height: 300px;
+    width: 166px;
+    background-color: #CE1126;
+    position: absolute;
+    left: 166px;
+    
+}
+.zutak{
+    height: 300px;
+    width: 166px;
+    background-color: #FCD116;
+    position: absolute;
+    left: 330px;
+
+}
+
+.crvenatu{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    left: 500px;
+}
+
+.bijeli-krug{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+.crveni-krug{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 117px;
+    top: 83px;
+}
+
+.bijela-zvijezda{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2%  35%,
+        39% 35%
+    );
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 100px;
+    left: 230px;
+
+}
