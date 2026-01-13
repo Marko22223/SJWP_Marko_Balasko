@@ -1,0 +1,153 @@
+.ph14 {
+  background-color: rgb(53, 122, 175);
+  height: 40px;
+  width: 100%;
+  font-family: sans-serif;
+  color: white;
+  padding: 2px;
+}
+
+.ph13 {
+  background-color: rgb(54, 134, 185);
+  height: 40px;
+  width: 100%; 
+  font-family: sans-serif; 
+  color: white;  
+  padding: 2px;   
+}
+
+.ph12 {
+  background-color: #3293c3; 
+  height: 40px;
+  width: 100%;   
+  font-family: sans-serif;  
+  color: white; 
+  padding: 2px; 
+}
+
+.ph11 {
+  background-color: #469fcb; 
+  height: 40px;
+  width: 100%;   
+  font-family: sans-serif; 
+  color: white;   
+  padding: 2px;
+}
+
+.ph10 {
+  background-color: #5fadd2;  
+  height: 40px;
+  width: 100%; 
+  font-family: sans-serif;  
+  color: white;  
+  padding: 2px; 
+}
+
+.ph9 {
+  background-color: #75bada;   
+  height: 40px;
+  width: 100%;   
+  font-family: sans-serif; 
+  color: white; 
+  padding: 2px;
+}
+
+.ph8 {
+  background-color: #8dc4df; 
+  height: 40px;
+  width: 100%;    
+  font-family: sans-serif;  
+  color: white; 
+  padding: 2px;
+}
+
+.ph7 {
+  background-color: #23ab7e;  
+  height: 80px;
+  width: 100%;  
+  font-family: sans-serif;
+  color: white;
+  padding: 2px;
+}
+
+.ph6 {
+  background-color: #e7abc1;   
+  height: 40px;
+  width: 100%;   
+  font-family: sans-serif; 
+  color: white; 
+  padding: 2px;
+}
+
+.ph5 {
+  background-color: #e799b5;   
+  height: 40px;
+  width: 100%;  
+  font-family: sans-serif;  
+  color: white; 
+  padding: 2px;
+}
+.ph4 {
+  background-color: #e587a7;
+  height: 40px;
+  width: 100%;
+  font-family: sans-serif;
+  color: white;
+  padding: 2px;
+}
+
+.ph3 {
+  background-color: #e2749a; 
+  height: 40px;
+  width: 100%;   
+  font-family: sans-serif;
+  color: white;
+  padding: 2px;
+}
+
+.ph2 {
+  background-color: #e0658a;  
+  height: 40px;
+  width: 100%;   
+  font-family: sans-serif; 
+  color: white;
+  padding: 2px;
+}
+
+.ph1 {
+  background-color: #db5580;    
+  height: 40px;
+  width: 100%;
+  font-family: sans-serif;
+  color: white;
+  padding: 2px;
+}
+
+.ph0 {
+  background-color: #da3d75;  
+  height: 40px;
+  width: 100%;     
+  font-family: sans-serif; 
+  color: white;
+  padding: 2px;
+}
+
+html{
+    background-color: grey;
+}
+.naslov{
+    background-color: lightgrey;
+    font-size: 30px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.neutral{
+    font-size: 50px;
+}
+div{
+    margin-bottom: 0px;
+
+}
