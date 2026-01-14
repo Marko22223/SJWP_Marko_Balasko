@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .spoj{
+        position: relative;
+        top: 200px;
+        left: 100px;
+    }
+    .crveni{
+        width: 250px;
+        height: 250px;
+        background-color: red;
+        position: absolute;
+        top: 300px;
+        transition: width 2s ease;
+    }
+    .plavi{
+        width: 250px;
+        height: 250px;
+        top: 290px;
+        background-color: blue;
+        transition: width 2s 1s ease;
+    }
+
+    .spoj:hover .plavi{
+        width: 1000px;
+    }
+    .spoj:hover .crveni{
+        width: 1000px;
+    }
+</style>
+
+<body>
+    <div class="spoj">
+        <div class="crveni"></div>
+        <div class="plavi"></div>
+    </div>
+</body>
+</html>

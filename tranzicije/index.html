@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>tranzicije</title>
+</head>
+<style>
+    div{
+        width: 250px;
+        height: 250px;
+        background-color: chocolate;
+       /*  transition-property: width;            (pisu se ovim redom ili u jednoj naredbi) 
+        transition-duration: 2s;
+        transition-delay: 0s;
+        transition-timing-function: cubic-bezier(0.79, 0.06,0.26,0.97) */;
+        transition: width 2s 0s ease, height 2s 0s ease, background-color 2s ease, transform 2s ease;
+    }
+    div:hover{
+        width: 750px;
+        height: 750px;
+        background-color: crimson;
+        transform: rotate(180deg) translate(200px);
+
+    }
+</style>
+
+
+<body>
+    <h1>tranzicije</h1>
+    <div></div>
+
+
+</body>
+</html>
