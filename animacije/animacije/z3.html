@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 3: Pomicanje elementa
+Napravi krug koji se pomiče s lijeve strane na desnu i natrag.
+- Trajanje animacije: 3 sekunde
+- Koristi transform: translateX()
+- Koristi alternate -->
+
+<style>
+    .krug{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: blueviolet;
+        position: relative;
+        top: 100px;
+        animation: pomicanje 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes pomicanje {
+      0%{
+        left: 0px;
+      } 
+      100%{
+        left: 1700px;
+      }
+    } 
+</style>
+
+
+<body>
+    <div class="krug"></div>
+</body>
+</html>

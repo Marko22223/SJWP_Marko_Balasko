@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 8: CSS semafor
+Napravi semafor s tri kruga: crveni, žuti i zeleni.
+- Svjetla se pale redom: crveno → žuto → zeleno
+- Koristi animation-delay
+- Bez JavaScripta -->
+
+<style>
+    .semafor{
+        background-color: lightgray;
+        width: 500px;
+        height: 300px;
+        border-radius: 20px;
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+    .crveno{
+       width: 100px;
+       height: 100px;
+       background-color: red; 
+       border-radius: 50%;
+       position: absolute;
+       top: 100px;
+       left: 75px;
+       animation: shadow 2s 1s 2 ease-in-out alternate;
+    }
+    .zuto{
+        width: 100px;
+       height: 100px;
+       background-color: yellow; 
+       border-radius: 50%;
+       position: absolute;
+       top: 100px;
+       left: 200px;
+       animation: shadow2 2s 3s 2 ease-in-out alternate;
+    }
+    .zeleno{
+        width: 100px;
+       height: 100px;
+       background-color: green; 
+       border-radius: 50%;
+       position: absolute;
+       top: 100px;
+       left: 325px;
+       animation: shadow3 2s 5s 2 ease-in-out alternate;
+    }
+    @keyframes shadow {
+        0%{
+        }100%{
+            box-shadow: 10px 10px 10px 10px rgb(255, 71, 71);
+        }
+    }
+    @keyframes shadow2 {
+        0%{
+        }100%{
+            box-shadow: 10px 10px 10px 10px rgb(253, 253, 78);
+        }
+    }
+    @keyframes shadow3 {
+        0%{
+        }100%{
+            box-shadow: 10px 10px 10px 10px rgb(42, 133, 42);
+        }
+    }
+    
+
+</style>
+
+<body>
+        <div class="semafor">
+            <div class="crveno"></div>
+            <div class="zuto"></div>
+            <div class="zeleno"></div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 7: Pojavljivanje teksta
+Tekst na početku nije vidljiv.
+- Nakon učitavanja stranice polako se pojavljuje
+- Tekst dolazi odozdo prema gore
+- Trajanje animacije: 2 sekunde -->
+
+<style>
+    .tekst{
+        animation: pojava 2s ease-in-out forwards;
+        position: relative;
+        top: 1100px;
+        left: 37%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100px;
+    }
+    @keyframes pojava {
+        0%{
+
+        }
+        100%{
+            top: 200px;
+        }
+    }
+</style>
+
+<body>
+    <p class="tekst">neki tekst</p>
+</body>
+</html>

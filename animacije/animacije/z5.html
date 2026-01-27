@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 5: Rotirajući element
+Napravi krug ili kvadrat koji se neprekidno rotira.
+- Puni krug u 2 sekunde
+- Koristi transform: rotate(360deg) -->
+
+<style>
+    .kvadrat{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: relative;
+        top: 100px;
+        left: 100px;
+        animation: rotacija 2s linear infinite;
+    }
+
+    @keyframes rotacija {
+        0%{
+
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+</style>
+
+<body>
+    <div class="kvadrat"></div>
+</body>
+</html>

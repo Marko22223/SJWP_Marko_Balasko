@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 4: Hover animacija kartice
+Napravi karticu (div) s tekstom.
+- Na hover kartica se poveća
+- Promijeni se boja pozadine
+- Pojavi se sjena
+- Trajanje prijelaza: 0.5 s -->
+
+<style>
+    .kartica{
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        position: relative;
+        top: 500px;
+        left: 500px;
+        transition: 0.5s transform;
+    }
+    .kartica:hover{
+        transform: scale(200%);
+        background-color: red;
+        box-shadow: 3px 3px 3px black;
+    }
+    .tekstom{
+        position: absolute;
+        top: 75px;
+        left: 75px;
+    }
+</style>
+
+<body>
+    <div class="kartica"><p class="tekstom">tekstom</p></div>
+</body>
+</html>

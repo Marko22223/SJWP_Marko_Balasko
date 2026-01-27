@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 2: Promjena boje pozadine
+Napravi div veličine 200×200 px.
+- Pozadina se mijenja: crvena → plava → zelena → crvena
+- Trajanje animacije: 4 sekunde
+- Animacija mora biti glatka -->
+
+<style>
+    .da{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        animation: promjena 4s 1s ease ;
+        position: relative;
+        left: 200px;
+        top: 250px;
+    }
+
+    @keyframes promjena {
+        0%{
+        }33%{
+            background-color: blue;
+        }66%{
+            background-color: green;
+        }99%{
+            background-color: red;
+        }
+
+    }
+</style>
+
+<body>
+    <div class="da"></div>
+</body>
+</html>

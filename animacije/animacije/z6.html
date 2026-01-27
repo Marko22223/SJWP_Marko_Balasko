@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 6: CSS loader
+Napravi krug koji simulira učitavanje.
+- Koristi border
+- Gornji dio kruga druge boje
+- Krug se stalno vrti 
+- trajanje naimacije 1s-->
+
+<style>
+    .load{
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        margin-top: 100px;
+        margin-left: 100px;
+        border: 5px solid blueviolet;
+        border-top: solid 5px transparent;
+        border-radius: 50%;
+        animation: 1s spin 0s infinite linear;
+    }
+
+    @keyframes spin {
+        0%{
+
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+</style>
+
+<body>
+    <div class="load"></div>
+</body>
+</html>

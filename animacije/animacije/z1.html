@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Zadatak 1: Pulsirajući gumb
+Napravi gumb s tekstom „Klikni me“ koji se lagano povećava i smanjuje.
+- Trajanje animacije: 2 sekunde
+- Animacija se ponavlja beskonačno
+- Koristi transform: scale() -->
+<style>
+    .gumb{
+        background-color: blueviolet;
+        animation: puls 2s ease infinite alternate;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 200px;
+        top: 200px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    @keyframes puls {
+        0%{
+
+        }
+        100%{
+            transform: scale(200%);
+        }
+    }
+</style>
+
+
+<body>
+    <div class="gumb"><p>klikni me</p></div>
+</body>
+</html>
