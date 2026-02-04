@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 5: Signal jačine (napredniji zadatak)
+Napravi indikator jačine signala sastavljen od pet vertikalnih stupaca.
+- Stupci se pale redom s lijeva na desno
+- Visina stupaca se povećava i smanjuje
+- Koristi @keyframes i animation-delay
+- Animacija je neprekidna
+- Nije dopušten JavaScript -->
+
+<style>
+    .indikator1{
+        width: 20px;
+        height: 20px;
+        background-color: grey;
+        position: relative;
+        top: 400px;
+        left: 100px;
+        animation: signal 1s infinite;
+    }
+    .indikator2{
+        width: 20px;
+        height: 40px;
+        background-color: grey;
+        position: relative;
+        top: 360px;
+        left: 130px;
+        animation: signal 1s infinite;
+    }
+    .indikator3{
+        width: 20px;
+        height: 60px;
+        background-color: grey;
+        position: relative;
+        top: 300px;
+        left: 160px;
+        animation: signal 1s infinite;
+    }
+    .indikator4{
+        width: 20px;
+        height: 80px;
+        background-color: grey;
+        position: relative;
+        top: 220px;
+        left: 190px;
+        animation: signal 1s infinite;
+    }
+    .indikator5{
+        width: 20px;
+        height: 100px;
+        background-color: grey;
+        position: relative;
+        top: 120px;
+        left: 220px;
+        animation: signal 1s infinite;
+    }
+    .indikator2{
+        animation-delay: 0.2s;
+    }
+    .indikator3{
+        animation-delay: 0.4s;
+    }
+    .indikator4{
+        animation-delay: 0.6s;
+    }
+    .indikator5{
+        animation-delay: 0.8s;
+    }
+    @keyframes signal {
+        0% {
+            background-color: grey;
+        }
+        50% {
+            background-color: green;
+        }
+        100% {
+            background-color: grey;
+        }
+    }
+
+</style>
+
+<body>
+    <div class="indikator1"></div>
+    <div class="indikator2"></div>
+    <div class="indikator3"></div>
+    <div class="indikator4"></div>
+    <div class="indikator5"></div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 4: Hover rotacija
+Napravi kvadratni element koji miruje dok se ne prijeđe mišem.
+- Na hover se zakrene za 90 stupnjeva
+- Koristi transform: rotate()
+- Koristi transition trajanja 0.4 sekunde -->
+
+<style>
+    .kvadrat {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        position: relative;
+        left: 100px;
+        top: 100px;
+        transition: transform 0.4s;
+    }
+    .kvadrat:hover{
+        transform: rotate(90deg);
+    }
+    
+</style>
+
+<body>
+    <div class="kvadrat"></div>
+</body>
+</html>

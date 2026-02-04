@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexlayout</title>
+</head>
+
+<style>
+    body{
+        background-color: grey;
+    }
+    .container {
+        background-color: dodgerblue;
+        height: 200px;
+        display: flex;
+        flex-direction: row; /* mjenjaju se osi ako je column pa content je onda po vertikali a items je po horizontali */
+        flex-wrap: wrap;
+        justify-content: center; /* pozicije po horizontalnoj osi */
+        align-items: center; /* pozicije po vertikali */
+        align-content: center; /* pozicije grupe po vertikali ako je flex wrap na wrap */
+    }
+    .container div{
+        background-color: coral;
+        width: 100px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    
+</style>
+
+<body>
+    <h1>FlexBox</h1>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 1: Treptajuća lampica
+Napravi kružnu lampicu koja se naizmjenično pali i gasi.
+- Koristi promjenu opacity
+- Trajanje animacije: 1.5 sekundi
+- Animacija se ponavlja beskonačno -->
+
+<style>
+    .lampica {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border-radius: 50%;
+        animation: treptanje 1.5s infinite;
+    }
+    @keyframes treptanje {
+        0% {  
+            opacity: 1;
+        }
+        50% {  
+            opacity: 0;
+        }
+        100% {  
+            opacity: 1;
+        }
+    }
+</style>
+
+
+<body>
+    <div class="lampica"></div>
+</body>
+</html>

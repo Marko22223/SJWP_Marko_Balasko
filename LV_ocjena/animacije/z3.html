@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 3: Promjena oblika
+Napravi element koji započinje kao kvadrat, a tijekom animacije postaje krug.
+- Koristi border-radius
+- Trajanje animacije: 3 sekunde
+- Animacija se ponavlja beskonačno -->
+
+<style>
+    .kvadrat {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: relative;
+        animation: pretvorba 3s infinite alternate;
+    }
+    @keyframes pretvorba {
+        0% {
+            border-radius: 0;
+        }
+        100% {
+            border-radius: 50%;
+        }
+    }
+</style>
+
+<body>
+    <div class="kvadrat"></div>
+</body>
+</html>

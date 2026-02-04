@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Zadatak 2: Klizni ulazak elementa
+Napravi div s tekstom koji na početku nije vidljiv na ekranu.
+- Element dolazi s lijeve strane
+- Koristi transform: translateX()
+- Trajanje animacije: 2 sekunde -->
+
+<style>
+    .tekst{
+        width: 200px;
+        height: 50px;
+        color: black;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        position: relative;
+        left: 1500px;
+        top: 20px;
+        animation: pojava 2s forwards;
+    }
+    @keyframes pojava {
+        0% {
+        }
+        100% {
+            transform: translateX(-1500px);
+        }
+    }
+</style>
+
+<body>
+    <p class="tekst">tekst</p>
+</body>
+</html>
