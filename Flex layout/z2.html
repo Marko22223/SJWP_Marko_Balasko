@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .Box{
+        background-color: grey;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100vh;
+        width: 100vw;
+    }
+    .content-menu{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 542px;
+    }
+    .Box div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid black 4px;
+       
+    }
+    .Header{
+        background-color: rgb(131, 131, 255);
+        height: 20%;
+        width: 100%;
+    }
+    .Content{
+        background-color: rgb(255, 131, 131);
+        height: 100%;
+        width: 1800px;
+
+    }
+    .Footer{
+        background-color: rgb(131, 131, 255);
+        height: 20%;
+    }
+    .Menu{
+        background-color: rgb(255, 131, 255);
+        height: 100%;
+        width: 300px;   
+
+    }
+    .AD{
+        background-color: rgb(255, 131, 255);
+        height: 100%;
+        width: 300px;
+
+    }
+</style>
+
+
+<body>
+    <div class="Box">
+        <div class="Header">Header</div>
+        <div class="content-menu">
+            <div class="Menu">Menu</div>
+            <div class="Content">Content</div>
+            <div class="AD">AD</div>
+        </div>
+        <div class="Footer">Footer</div>
+    </div>
+</body>
+</html>
