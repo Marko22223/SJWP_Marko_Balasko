@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px;
+    }
+    div{
+        padding: 30px;
+        border-radius: 20px;
+        font-size: 50px;
+        color: white;
+    }
+    .A{
+        background-color: darkslategrey;
+        order: 2;
+    }
+    .B{
+        background-color: darkslategrey;
+        order: 5;
+    }
+    .C{
+        background-color: darkslategrey;
+        order: 6;
+    }
+    .D{
+        background-color: darkslategrey;
+        order: 1;
+    }
+    .E{
+        background-color: darkslategrey;
+        order: 4;
+    }
+    .F{
+        background-color: darkslategrey;
+        order: 3;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="A">A</div>
+        <div class="B">B</div>
+        <div class="C">C</div>
+        <div class="D">D</div>
+        <div class="E">E</div>
+        <div class="F">F</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+    div{
+        padding: 20px;
+        border-radius: 20px;
+        color: white;
+    }
+    .text{
+        display:flex;
+        align-items: center;
+        font-size: 70px;
+
+    }
+
+    .Header{
+        background-color: grey;
+        grid-column: 1/3;
+    }
+    .Slidebar{
+        background-color: rgb(59, 59, 59);
+        grid-column: 1/2;
+    }
+    .Content{
+        background-color: rgb(59, 59, 59);
+        grid-column: 2/3;
+    }
+    .Slidebar2{
+        background-color: rgb(180, 180, 180);
+        grid-column: 1/3;
+    }
+    .Footer{
+        background-color: grey;
+        grid-column: 1/3;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="Header text">Header</div>
+        <div class="Slidebar text">Sidebar</div>
+        <div class="Content text">Content <br> More content than we had before so this column is no quite tall</div>
+        <div class="Slidebar2 text">Sidebar 2</div>
+        <div class="Footer text">Footer</div>
+    </div>
+</body>
+</html>
