@@ -8,34 +8,32 @@
 
 <style>
     .container{
+        height: 100vh;
+        background-color: white;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        gap: 30px;
+        gap: 25px;
     }
     div{
         padding: 30px;
         border-radius: 20px;
         font-size: 50px;
         color: white;
+        background-color: darkslategrey;
     }
     .A{
-        background-color: darkslategrey;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        
     }
     .B{
-        background-color: darkslategrey;
-    }
-    .C{
-        background-color: darkslategrey;
-    }
-    .D{
-        background-color: darkslategrey;
-    }
-    .E{
-        background-color: darkslategrey;
-    }
-    .F{
-        background-color: darkslategrey;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
     }
 </style>
 
@@ -45,8 +43,6 @@
         <div class="B">B</div>
         <div class="C">C</div>
         <div class="D">D</div>
-        <div class="E">E</div>
-        <div class="F">F</div>
     </div>
 </body>
 </html>
