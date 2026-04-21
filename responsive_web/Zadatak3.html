@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .Box{
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        
+    }
+    .content-menu{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 70%;
+    }
+    .Header, .Main, .Footer, .Left, .Right{
+        text-align: center;
+        font-size: 100px;
+        font-weight: bold;
+       
+    }
+    .Header{
+        background-color: coral;
+        height: 15%;
+        width: 100%;
+    }
+    .Main{
+        background-color: white;
+        height: 100%;
+        width: 70%;
+
+    }
+    .Footer{
+        background-color: lightblue;
+        height: 15%;
+        width: 100%;
+    }
+    .Left{
+        background-color: yellow;
+        height: 100%;
+        width: 300px;   
+
+    }
+    .Right{
+        background-color: greenyellow;
+        height: 100%;
+        width: 300px;
+
+    }
+
+    @media(max-width: 1060px){
+        .content-menu{
+            width: 100%;
+            height: 70%;
+            display:grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            gap: 0px;
+        }
+        .Main{
+            grid-column: 1/3;
+            grid-row: 1/2;
+            width: 100%;
+            height: 100%;
+        }
+        .Left{
+            grid-column: 1/2;
+            grid-row: 2/3;
+            width: 100%;
+            height: 100%;
+        }
+        .Right{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    @media(max-width: 600px){
+        .content-menu{
+            width: 100%;
+            height: 70%;
+            display:grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 0px;
+        }
+        .Main{
+            grid-column: 1/2;
+            grid-row: 2/3;
+            width: 100%;
+            height: 100%;
+        }
+        .Left{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            width: 100%;
+            height: 100%;
+        }
+        .Right{
+            grid-column: 1/2;
+            grid-row: 3/4;
+            width: 100%;
+            height: 100%;
+        }
+    }
+</style>
+
+
+<body>
+    <div class="Box">
+        <div class="Header">Header</div>
+        <div class="content-menu">
+            <div class="Left">Left</div>
+            <div class="Main">Main</div>
+            <div class="Right">Right</div>
+        </div>
+        <div class="Footer">Footer</div>
+    </div>
+</body>
+</html>
