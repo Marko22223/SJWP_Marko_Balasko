@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        margin: 0px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        width: 100vw;
+        height: 100vh;
+        background-color: bisque;
+    }
+    .Proizvod1, .Proizvod2, .Proizvod3, .Proizvod4, .Proizvod5,.Proizvod6,.Proizvod7,.Proizvod8{
+        background-color: blue;
+        text-align: center;
+    }
+    
+    @media (max-width: 1023px){
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+        }
+
+    }
+    @media (max-width: 768px){
+        .container{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+        }
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="Proizvod1">Proizvod 1</div>
+        <div class="Proizvod2">Proizvod 2</div>
+        <div class="Proizvod3">Proizvod 3</div>
+        <div class="Proizvod4">Proizvod 4</div>
+        <div class="Proizvod5">Proizvod 5</div>
+        <div class="Proizvod6">Proizvod 6</div>
+        <div class="Proizvod7">Proizvod 7</div>
+        <div class="Proizvod8">Proizvod 8</div>
+    </div>
+</body>
+</html>
